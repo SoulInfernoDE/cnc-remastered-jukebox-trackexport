@@ -81,6 +81,10 @@ before encoding starts.
 Ctrl+C is safe: partial files are removed, and the next run resumes where it
 stopped.
 
+`--lang` picks the language the *titles* are read in. What the program itself
+says follows your system locale instead, and falls back to English where there
+is no translation.
+
 ## The three formats
 
 | | |

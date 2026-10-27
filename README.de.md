@@ -83,6 +83,10 @@ der Musikordner benutzt; das Ziel wird vor dem Kodieren immer ausgegeben.
 Strg+C ist unbedenklich: angefangene Dateien werden entfernt, und der nächste
 Lauf macht dort weiter, wo er aufgehört hat.
 
+`--lang` wählt die Sprache, in der die *Titel* gelesen werden. Was das
+Programm selbst sagt, richtet sich dagegen nach der Systemsprache und fällt
+auf Englisch zurück, wo es keine Übersetzung gibt.
+
 ## Die drei Formate
 
 | | |

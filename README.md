@@ -50,8 +50,8 @@ sudo pacman -S python ffmpeg         # Arch
 ## Using it
 
 ```bash
-git clone -b export https://github.com/SoulInfernoDE/cnc-remastered-jukebox.git
-cd cnc-remastered-jukebox
+git clone https://github.com/SoulInfernoDE/cnc-remastered-jukebox-trackexport.git
+cd cnc-remastered-jukebox-trackexport
 ./cnc_trackexport
 ```
 
@@ -104,16 +104,17 @@ The interesting parts are written down rather than left in the code:
 
 Both are also available in German; the link sits at the top of each.
 
-## Also in this repository
+## The jukebox
 
-The [`gui`](../../tree/gui) branch carries a rebuild of the game's own music
-jukebox as a standalone Linux window — the same layout, skin and typefaces,
-with every caption in your system's language, read from your installation at
-runtime the same way this exporter reads the track names.
+[**cnc-remastered-jukebox-gui**](https://github.com/SoulInfernoDE/cnc-remastered-jukebox-gui)
+rebuilds the game's own music jukebox as a standalone Linux window — the same
+layout, skin and typefaces, with every caption in your system's language, read
+from your installation at runtime the same way this exporter reads the track
+names.
 
 It is a separate program with its own requirements (PyQt5 on top of ffmpeg),
-so it lives on its own branch. This one stays what it is: one script, no
-install, no extra dependencies.
+so it lives in a repository of its own. This one stays what it is: one script,
+no install, no extra dependencies.
 
 ## Legal
 
